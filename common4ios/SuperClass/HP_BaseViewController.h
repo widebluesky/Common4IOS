@@ -6,6 +6,12 @@
 //  Copyright (c) 2012年 Yi Xu. All rights reserved.
 //
 
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define StateBarHeight 20
+#define MainHeight (ScreenHeight - StateBarHeight)
+#define MainWidth ScreenWidth
+
 @protocol PopViewControllerDelegate <NSObject>
 
 -(void)onPopViewControllerDelegate:(NSMutableDictionary *)dictionary;
@@ -49,13 +55,5 @@
 //简单的加载提示框
 -(void)showSimpleProgressViewWithMessage:(NSString *)msg;
 
-//存放小信息NSUserDefaults
--(NSUserDefaults *) getNSUserDefaults;
-
--(void) setDictionaryForNSUserDefaults:(NSMutableDictionary *) dictionary forKey:(NSString *)key;
-
--(void) setObjectForNSUserDefaults:(id) object forKey:(NSString *)key;
-
--(void) setStringForNSUserDefaults:(NSString *) string forKey:(NSString *)key;
 @end
 

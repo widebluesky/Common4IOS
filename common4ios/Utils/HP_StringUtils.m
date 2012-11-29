@@ -25,4 +25,13 @@
     //NSUTF32BigEndianStringEncoding
     return [string dataUsingEncoding:encoding];
 }
+
++(NSString *) addPrefix:(NSString *) prefix withString:(NSString *) str{
+    return [NSString stringWithFormat:@"%@%@",prefix,str];
+}
+
++(NSString *) addSuffix:(NSString *) suffix withString:(NSString *) str{
+    return [NSString stringWithFormat:@"%@%@",str,suffix];
+}
+
 @end

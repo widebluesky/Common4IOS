@@ -19,4 +19,9 @@
 
 +(NSData *) getDataFromString:(NSString *) string encoding:(NSStringEncoding)encoding;
 
+//加前缀
++(NSString *) addPrefix:(NSString *) prefix withString:(NSString *) str;
+
+//加后缀
++(NSString *) addSuffix:(NSString *) suffix withString:(NSString *) str;
 @end
