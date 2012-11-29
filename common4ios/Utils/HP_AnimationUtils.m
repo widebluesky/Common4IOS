@@ -11,10 +11,10 @@
 @implementation HP_AnimationUtils
 
 //+(void)doAnimationForView:(UIView *)view toDegree:(float)toDegree duration:(float)duration{
-//    
+//
 //    int times90 = toDegree/M_PI/180;
 //    float timesDuration = duration/times90;
-//    
+//
 //    [UIView animateWithDuration:duration animations:^{
 //        view.transform = CGAffineTransformMakeRotation(-M_PI_4);
 //    } completion:^(BOOL finished) {
@@ -30,13 +30,14 @@
     rotationAnimation.duration = duration;
     rotationAnimation.fillMode=kCAFillModeForwards;
     rotationAnimation.removedOnCompletion = NO;
-//    rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    //动画旋转完毕，需要将view 的transform重新设置一下。
+    //    rotationAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
     
     return rotationAnimation;
     
-//  [NSNumber numberWithFloat:(2 * M_PI) * direction];
+    //  [NSNumber numberWithFloat:(2 * M_PI) * direction];
     
-//	[logoLayer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
+    //	[logoLayer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
     
 }
 
@@ -49,7 +50,7 @@
     rotationAnimation.fillMode=kCAFillModeForwards;
     rotationAnimation.removedOnCompletion = NO;
     return rotationAnimation;
-
+    
 }
 
 + (id)rotateZFromValue:(float)fromValue toValue:(float)toValue duration:(float)duration{
@@ -80,7 +81,7 @@
     [UIView animateWithDuration:duration animations:^{
         view.alpha = toAlpha;
     } completion:^(BOOL finished) {
-
+        
     }];
 }
 
@@ -93,6 +94,28 @@
     }];
 }
 
++ (void) doAnimationForView:(UIView *) view toX:(float) toX duration:(float) duration{
+    
+    [UIView animateWithDuration:duration animations:^{
+        view.center = CGPointMake(toX, view.center.y);
+    } completion:^(BOOL finished) {
+        
+    }];
+    
+}
+
++ (void) doAnimationForView:(UIView *) view fromX:(float) fromX toX:(float) toX duration:(float) duration{
+    
+    view.center = CGPointMake(fromX, view.center.y);
+    
+    [UIView animateWithDuration:duration animations:^{
+        view.center = CGPointMake(toX, view.center.y);
+    } completion:^(BOOL finished) {
+        
+    }];
+    
+}
+
 + (void) doAnimationForView:(UIView *) view fromPoint:(CGPoint) fromPoint toPoint:(CGPoint) toPoint duration:(float) duration{
     
     view.frame = CGRectMake(fromPoint.x, fromPoint.y,view.frame.size.width,view.frame.size.height);
@@ -100,7 +123,7 @@
     [UIView animateWithDuration:duration animations:^{
         view.frame = CGRectMake(toPoint.x, toPoint.y,view.frame.size.width,view.frame.size.height);
     } completion:^(BOOL finished) {
-     
+        
     }];
 }
 
@@ -135,42 +158,42 @@
 //    CAKeyframeAnimation *positionAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
 //    positionAnimation.values = [NSArray arrayWithObjects:[NSValue valueWithCGPoint:p], nil];
 //    positionAnimation.keyTimes = [NSArray arrayWithObjects: [NSNumber numberWithFloat:.3], nil];
-//    
+//
 //    CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
 //    scaleAnimation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(3, 3, 1)];
-//    
+//
 //    CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
 //    opacityAnimation.toValue  = [NSNumber numberWithFloat:0.0f];
-//    
+//
 //    CAAnimationGroup *animationgroup = [CAAnimationGroup animation];
 //    animationgroup.animations = [NSArray arrayWithObjects:positionAnimation, scaleAnimation, opacityAnimation, nil];
 //    animationgroup.duration = 0.3f;
 //    animationgroup.fillMode = kCAFillModeForwards;
-//    
+//
 //    return animationgroup;
 //}
 //
 //+ (CAAnimationGroup *)_shrinkAnimationAtPoint:(CGPoint)p
 //{
 //    CAKeyframeAnimation *positionAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
-//    
+//
 //    NSLog(@"%@",[NSValue valueWithCGPoint:p]);
 //    NSLog(@"%@",@"asdf");
 //    positionAnimation.values = [NSArray arrayWithObjects:[NSValue valueWithCGPoint:p], nil];
 //
 //    positionAnimation.keyTimes = [NSArray arrayWithObjects: [NSNumber numberWithFloat:.3], nil];
-//    
+//
 //    CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
 //    scaleAnimation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(.01, .01, 1)];
-//    
+//
 //    CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
 //    opacityAnimation.toValue  = [NSNumber numberWithFloat:0.0f];
-//    
+//
 //    CAAnimationGroup *animationgroup = [CAAnimationGroup animation];
 //    animationgroup.animations = [NSArray arrayWithObjects:positionAnimation, scaleAnimation, opacityAnimation, nil];
 //    animationgroup.duration = 0.3f;
 //    animationgroup.fillMode = kCAFillModeForwards;
-//    
+//
 //    return animationgroup;
 //}
 

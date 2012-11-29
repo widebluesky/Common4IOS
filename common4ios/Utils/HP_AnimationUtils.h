@@ -30,6 +30,11 @@ typedef void (^AnimationCompletionBlock)(BOOL finished);
 + (void) doAnimationForView:(UIView *) view fromAlpha:(float) fromAlpha toAlpha:(float) toAlpha duration:(float) duration;
 
 //位移
++ (void) doAnimationForView:(UIView *) view toX:(float) toX duration:(float) duration;
+
+//位移
++ (void) doAnimationForView:(UIView *) view fromX:(float) fromX toX:(float) toX duration:(float) duration;
+//位移
 + (void) doAnimationForView:(UIView *) view toPoint:(CGPoint) toPoint duration:(float) duration;
 
 //位移
