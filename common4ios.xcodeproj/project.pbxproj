@@ -18,6 +18,12 @@
 		093A1F47162FC64B0024393E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093A1F46162FC64B0024393E /* Default-568h@2x.png */; };
 		093A1F4A162FC64B0024393E /* HP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A1F49162FC64B0024393E /* HP_ViewController.m */; };
 		093A1F4D162FC64B0024393E /* HP_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093A1F4B162FC64B0024393E /* HP_ViewController.xib */; };
+		0969B561166C2CE9009290A5 /* HP_Common4IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B560166C2CE9009290A5 /* HP_Common4IOS.m */; };
+		0969B564166C2CF8009290A5 /* UIImage+Common4IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B563166C2CF8009290A5 /* UIImage+Common4IOS.m */; };
+		0969B567166C2D1B009290A5 /* HP_BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B566166C2D1B009290A5 /* HP_BaseTabBarController.m */; };
+		0969B56A166C2D3C009290A5 /* HP_NetWorkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B569166C2D3C009290A5 /* HP_NetWorkUtils.m */; };
+		0969B56D166C2D53009290A5 /* HP_NSDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B56C166C2D53009290A5 /* HP_NSDataUtils.m */; };
+		0969B573166C2E87009290A5 /* HP_GravityUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B572166C2E87009290A5 /* HP_GravityUIView.m */; };
 		09833347166713860037D100 /* HP_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833346166713860037D100 /* HP_BaseViewController.m */; };
 		09833352166713ED0037D100 /* HP_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833349166713ED0037D100 /* HP_UIButton.m */; };
 		09833353166713ED0037D100 /* HP_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983334B166713ED0037D100 /* HP_UIImageView.m */; };
@@ -69,6 +75,18 @@
 		093A1F48162FC64B0024393E /* HP_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HP_ViewController.h; sourceTree = "<group>"; };
 		093A1F49162FC64B0024393E /* HP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HP_ViewController.m; sourceTree = "<group>"; };
 		093A1F4C162FC64B0024393E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HP_ViewController.xib; sourceTree = "<group>"; };
+		0969B55F166C2CE9009290A5 /* HP_Common4IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_Common4IOS.h; sourceTree = "<group>"; };
+		0969B560166C2CE9009290A5 /* HP_Common4IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_Common4IOS.m; sourceTree = "<group>"; };
+		0969B562166C2CF8009290A5 /* UIImage+Common4IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common4IOS.h"; sourceTree = "<group>"; };
+		0969B563166C2CF8009290A5 /* UIImage+Common4IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common4IOS.m"; sourceTree = "<group>"; };
+		0969B565166C2D1B009290A5 /* HP_BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_BaseTabBarController.h; sourceTree = "<group>"; };
+		0969B566166C2D1B009290A5 /* HP_BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_BaseTabBarController.m; sourceTree = "<group>"; };
+		0969B568166C2D3C009290A5 /* HP_NetWorkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NetWorkUtils.h; sourceTree = "<group>"; };
+		0969B569166C2D3C009290A5 /* HP_NetWorkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NetWorkUtils.m; sourceTree = "<group>"; };
+		0969B56B166C2D53009290A5 /* HP_NSDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NSDataUtils.h; sourceTree = "<group>"; };
+		0969B56C166C2D53009290A5 /* HP_NSDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NSDataUtils.m; sourceTree = "<group>"; };
+		0969B571166C2E87009290A5 /* HP_GravityUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_GravityUIView.h; sourceTree = "<group>"; };
+		0969B572166C2E87009290A5 /* HP_GravityUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_GravityUIView.m; sourceTree = "<group>"; };
 		09833345166713860037D100 /* HP_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_BaseViewController.h; sourceTree = "<group>"; };
 		09833346166713860037D100 /* HP_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_BaseViewController.m; sourceTree = "<group>"; };
 		09833348166713ED0037D100 /* HP_UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIButton.h; sourceTree = "<group>"; };
@@ -205,6 +223,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0969B55D166C2CD7009290A5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0969B562166C2CF8009290A5 /* UIImage+Common4IOS.h */,
+				0969B563166C2CF8009290A5 /* UIImage+Common4IOS.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		09833341166712E10037D100 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +260,8 @@
 		09833344166713750037D100 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0969B565166C2D1B009290A5 /* HP_BaseTabBarController.h */,
+				0969B566166C2D1B009290A5 /* HP_BaseTabBarController.m */,
 				09833345166713860037D100 /* HP_BaseViewController.h */,
 				09833346166713860037D100 /* HP_BaseViewController.m */,
 			);
@@ -242,6 +271,9 @@
 		09833367166715180037D100 /* Common4IOS */ = {
 			isa = PBXGroup;
 			children = (
+				0969B55F166C2CE9009290A5 /* HP_Common4IOS.h */,
+				0969B560166C2CE9009290A5 /* HP_Common4IOS.m */,
+				0969B55D166C2CD7009290A5 /* Category */,
 				09833341166712E10037D100 /* Plugin */,
 				09C568141658D984007A972B /* CustomView */,
 				09C568171658D984007A972B /* SuperClass */,
@@ -268,6 +300,10 @@
 		09C567EE1658D91A007A972B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				0969B56B166C2D53009290A5 /* HP_NSDataUtils.h */,
+				0969B56C166C2D53009290A5 /* HP_NSDataUtils.m */,
+				0969B568166C2D3C009290A5 /* HP_NetWorkUtils.h */,
+				0969B569166C2D3C009290A5 /* HP_NetWorkUtils.m */,
 				09C567EF1658D91A007A972B /* HP_AFNetWorkingUtils.h */,
 				09C567F01658D91A007A972B /* HP_AFNetWorkingUtils.m */,
 				09C567F11658D91A007A972B /* HP_AnimationUtils.h */,
@@ -325,6 +361,8 @@
 				0983334D166713ED0037D100 /* HP_UIKeyboardCoView.m */,
 				09C568151658D984007A972B /* HP_PageFlowView.h */,
 				09C568161658D984007A972B /* HP_PageFlowView.m */,
+				0969B571166C2E87009290A5 /* HP_GravityUIView.h */,
+				0969B572166C2E87009290A5 /* HP_GravityUIView.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -438,6 +476,12 @@
 				0983336E166715670037D100 /* HP_PageFlowViewController.m in Sources */,
 				09833370166715670037D100 /* HP_TimeLineCenterViewController.m in Sources */,
 				09833374166716830037D100 /* HP_UITableView.m in Sources */,
+				0969B561166C2CE9009290A5 /* HP_Common4IOS.m in Sources */,
+				0969B564166C2CF8009290A5 /* UIImage+Common4IOS.m in Sources */,
+				0969B567166C2D1B009290A5 /* HP_BaseTabBarController.m in Sources */,
+				0969B56A166C2D3C009290A5 /* HP_NetWorkUtils.m in Sources */,
+				0969B56D166C2D53009290A5 /* HP_NSDataUtils.m in Sources */,
+				0969B573166C2E87009290A5 /* HP_GravityUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
