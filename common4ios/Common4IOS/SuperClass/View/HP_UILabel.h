@@ -10,10 +10,14 @@
 
 @interface HP_UILabel : UILabel
 
+@property(nonatomic) BOOL hasUnderline;
+@property(nonatomic) UIColor *underLineColor ;
 @property(nonatomic) UIEdgeInsets insets;
 
+//根据内边距初始化UILabel
 - (id)initWithFrame:(CGRect)frame andInsets:(UIEdgeInsets) insets;
 
+//根据内边距初始化UILabel
 - (id)initWithInsets:(UIEdgeInsets) insets;
 
 @end
