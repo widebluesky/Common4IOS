@@ -27,4 +27,16 @@
     [[self getNSUserDefaults] setObject:string forKey:key];
 }
 
+-(id) getObjectFromNSUserDefaultsForKey:(NSString *)key{
+    return [[self getNSUserDefaults] objectForKey:key];
+}
+
+-(NSString *) getStringFromNSUserDefaultsForKey:(NSString *)key{
+    return [[self getNSUserDefaults] stringForKey:key];
+}
+
+-(NSDictionary *) getDictionaryFromNSUserDefaultsForKey:(NSString *)key{
+    return [[self getNSUserDefaults] dictionaryForKey:key];
+}
+
 @end
