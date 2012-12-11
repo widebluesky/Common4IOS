@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0910343216776C1B00C737E8 /* HP_UIKeyboardCoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910343116776C1B00C737E8 /* HP_UIKeyboardCoView.m */; };
+		0910343516776D3F00C737E8 /* HP_PlistUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910343416776D3F00C737E8 /* HP_PlistUtils.m */; };
 		093A1F31162FC64B0024393E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1F30162FC64B0024393E /* UIKit.framework */; };
 		093A1F33162FC64B0024393E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1F32162FC64B0024393E /* Foundation.framework */; };
 		093A1F35162FC64B0024393E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 093A1F34162FC64B0024393E /* CoreGraphics.framework */; };
@@ -48,7 +50,6 @@
 		09EE8DFA16772CF90045E499 /* HP_UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DDA16772CF90045E499 /* HP_UserDefaultsUtils.m */; };
 		09EE8E0E16772DA30045E499 /* HP_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DFE16772DA30045E499 /* HP_UIButton.m */; };
 		09EE8E0F16772DA30045E499 /* HP_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0016772DA30045E499 /* HP_UIImageView.m */; };
-		09EE8E1016772DA30045E499 /* HP_UIKeyboardCoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0216772DA30045E499 /* HP_UIKeyboardCoView.m */; };
 		09EE8E1116772DA30045E499 /* HP_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0416772DA30045E499 /* HP_UILabel.m */; };
 		09EE8E1216772DA30045E499 /* HP_UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0616772DA30045E499 /* HP_UITableView.m */; };
 		09EE8E1316772DA30045E499 /* HP_UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0816772DA30045E499 /* HP_UIView.m */; };
@@ -58,6 +59,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0910343016776C1B00C737E8 /* HP_UIKeyboardCoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIKeyboardCoView.h; sourceTree = "<group>"; };
+		0910343116776C1B00C737E8 /* HP_UIKeyboardCoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIKeyboardCoView.m; sourceTree = "<group>"; };
+		0910343316776D3F00C737E8 /* HP_PlistUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_PlistUtils.h; sourceTree = "<group>"; };
+		0910343416776D3F00C737E8 /* HP_PlistUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_PlistUtils.m; sourceTree = "<group>"; };
 		093A1F2C162FC64B0024393E /* common4ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = common4ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		093A1F30162FC64B0024393E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		093A1F32162FC64B0024393E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -132,8 +137,6 @@
 		09EE8DFE16772DA30045E499 /* HP_UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIButton.m; sourceTree = "<group>"; };
 		09EE8DFF16772DA30045E499 /* HP_UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIImageView.h; sourceTree = "<group>"; };
 		09EE8E0016772DA30045E499 /* HP_UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIImageView.m; sourceTree = "<group>"; };
-		09EE8E0116772DA30045E499 /* HP_UIKeyboardCoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIKeyboardCoView.h; sourceTree = "<group>"; };
-		09EE8E0216772DA30045E499 /* HP_UIKeyboardCoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIKeyboardCoView.m; sourceTree = "<group>"; };
 		09EE8E0316772DA30045E499 /* HP_UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UILabel.h; sourceTree = "<group>"; };
 		09EE8E0416772DA30045E499 /* HP_UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UILabel.m; sourceTree = "<group>"; };
 		09EE8E0516772DA30045E499 /* HP_UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UITableView.h; sourceTree = "<group>"; };
@@ -315,6 +318,8 @@
 				09EE8DD816772CF90045E499 /* HP_UIImageUtils.m */,
 				09EE8DD916772CF90045E499 /* HP_UserDefaultsUtils.h */,
 				09EE8DDA16772CF90045E499 /* HP_UserDefaultsUtils.m */,
+				0910343316776D3F00C737E8 /* HP_PlistUtils.h */,
+				0910343416776D3F00C737E8 /* HP_PlistUtils.m */,
 			);
 			name = Utils;
 			path = Common4IOS/Utils;
@@ -337,8 +342,6 @@
 				09EE8DFE16772DA30045E499 /* HP_UIButton.m */,
 				09EE8DFF16772DA30045E499 /* HP_UIImageView.h */,
 				09EE8E0016772DA30045E499 /* HP_UIImageView.m */,
-				09EE8E0116772DA30045E499 /* HP_UIKeyboardCoView.h */,
-				09EE8E0216772DA30045E499 /* HP_UIKeyboardCoView.m */,
 				09EE8E0316772DA30045E499 /* HP_UILabel.h */,
 				09EE8E0416772DA30045E499 /* HP_UILabel.m */,
 				09EE8E0516772DA30045E499 /* HP_UITableView.h */,
@@ -363,6 +366,8 @@
 		09EE8E1616772EAC0045E499 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				0910343016776C1B00C737E8 /* HP_UIKeyboardCoView.h */,
+				0910343116776C1B00C737E8 /* HP_UIKeyboardCoView.m */,
 				09EE8E1716772EAD0045E499 /* HP_PageFlowView.h */,
 				09EE8E1816772EAD0045E499 /* HP_PageFlowView.m */,
 			);
@@ -468,13 +473,14 @@
 				09EE8DFA16772CF90045E499 /* HP_UserDefaultsUtils.m in Sources */,
 				09EE8E0E16772DA30045E499 /* HP_UIButton.m in Sources */,
 				09EE8E0F16772DA30045E499 /* HP_UIImageView.m in Sources */,
-				09EE8E1016772DA30045E499 /* HP_UIKeyboardCoView.m in Sources */,
 				09EE8E1116772DA30045E499 /* HP_UILabel.m in Sources */,
 				09EE8E1216772DA30045E499 /* HP_UITableView.m in Sources */,
 				09EE8E1316772DA30045E499 /* HP_UIView.m in Sources */,
 				09EE8E1416772DA30045E499 /* HP_BaseTabBarController.m in Sources */,
 				09EE8E1516772DA30045E499 /* HP_BaseViewController.m in Sources */,
 				09EE8E1916772EAD0045E499 /* HP_PageFlowView.m in Sources */,
+				0910343216776C1B00C737E8 /* HP_UIKeyboardCoView.m in Sources */,
+				0910343516776D3F00C737E8 /* HP_PlistUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
