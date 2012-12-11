@@ -80,7 +80,20 @@ typedef enum{
 - (CGSize)sizeForPageInFlowView:(HP_PageFlowView *)flowView;
 
 @optional
+
+- (void)pageFlowViewDidScroll:(UIScrollView *)scrollView;
+
+- (void)pageFlowViewDidEndScroll:(UIScrollView *)scrollView;
+
+- (void)pageFlowViewDidEndScrollDragging :(UIScrollView *)scrollView;
+
+- (void)willScrollFromPage:(NSInteger)pageNumber inFlowView:(HP_PageFlowView *)flowView;
+
 - (void)didScrollToPage:(NSInteger)pageNumber inFlowView:(HP_PageFlowView *)flowView;
+
+- (void)didScrollToFirstPage:(NSInteger)pageNumber inFlowView:(HP_PageFlowView *)flowView;
+
+- (void)didScrollToLastPage:(NSInteger)pageNumber inFlowView:(HP_PageFlowView *)flowView;
 
 @end
 

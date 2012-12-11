@@ -78,6 +78,9 @@
 }
 
 - (void)refreshVisibleCellAppearance{
+    if ([_cells count]==0) {
+        return;
+    }
     
     if (_minimumPageAlpha == 1.0 && _minimumPageScale == 1.0) {
         return;//无需更新
@@ -139,6 +142,10 @@
 }
 
 - (void)setPageAtIndex:(NSInteger)pageIndex{
+    
+    if ([_cells count]==0) {
+        return;
+    }
     NSParameterAssert(pageIndex >= 0 && pageIndex < [_cells count]);
     
     UIView *cell = [_cells objectAtIndex:pageIndex];
@@ -312,20 +319,21 @@
         }
         
         // 重置_scrollView的contentSize
+        CGPoint theCenter;
+        
         switch (orientation) {
             case HP_PageFlowViewOrientationHorizontal://横向
                 _scrollView.frame = CGRectMake(0, 0, _pageSize.width, _pageSize.height);
                 _scrollView.contentSize = CGSizeMake(_pageSize.width * _pageCount,_pageSize.height);
-                CGPoint theCenter = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
+                theCenter = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
                 _scrollView.center = theCenter;
                 break;
-            case HP_PageFlowViewOrientationVertical:{
+            case HP_PageFlowViewOrientationVertical:
                 _scrollView.frame = CGRectMake(0, 0, _pageSize.width, _pageSize.height);
                 _scrollView.contentSize = CGSizeMake(_pageSize.width ,_pageSize.height * _pageCount);
-                CGPoint theCenter = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
+                theCenter = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
                 _scrollView.center = theCenter;
                 break;
-            }
             default:
                 break;
         }
@@ -402,12 +410,43 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     [self setPagesAtContentOffset:scrollView.contentOffset];
     [self refreshVisibleCellAppearance];
+    
+    [_delegate pageFlowViewDidScroll:_scrollView];
+}
+
+-(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+    NSInteger pageCount = _scrollView.contentSize.width/_pageSize.width;
+    
+    NSInteger pageIndex;
+    
+    switch (orientation) {
+        case HP_PageFlowViewOrientationHorizontal:
+            pageIndex = floor(_scrollView.contentOffset.x / _pageSize.width);
+            break;
+        case HP_PageFlowViewOrientationVertical:
+            pageIndex = floor(_scrollView.contentOffset.y / _pageSize.height);
+            break;
+        default:
+            break;
+    }
+    
+    if (pageIndex==-1) {
+        [_delegate didScrollToFirstPage:floor(_scrollView.contentOffset.x / _pageSize.width) inFlowView:self];
+    }else if(pageIndex==(pageCount-1)){
+        [_delegate didScrollToLastPage:floor(_scrollView.contentOffset.x / _pageSize.width) inFlowView:self];
+    }
+    
+    [_delegate pageFlowViewDidEndScrollDragging:_scrollView];
+    
 }
 
 
+-(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    [_delegate willScrollFromPage:_currentPageIndex inFlowView:self];
+}
+
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
     //如果有PageControl，计算出当前页码，并对pageControl进行更新
-    
     NSInteger pageIndex;
     
     switch (orientation) {
@@ -433,12 +472,12 @@
 }
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect
+ {
+ // Drawing code
+ }
+ */
 
 @end
