@@ -108,8 +108,8 @@
     [contentView setFrame:CGRectMake(0,0, ScreenWidth , ScreenHeight)];
 }
 
--(NSUserDefaults *)getNSUserDefaultsInController{
-    return [self getNSUserDefaults];
+-(NSUserDefaults *)getNSUserDefaults{
+    return [NSUserDefaults standardUserDefaults];
 }
 
 -(void) setDictionaryForNSUserDefaults:(NSMutableDictionary *) dictionary forKey:(NSString *)key{
@@ -135,4 +135,5 @@
 -(NSDictionary *) getDictionaryFromNSUserDefaultsForKey:(NSString *)key{
     return [[self getNSUserDefaults] dictionaryForKey:key];
 }
+
 @end

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "093A1F2B162FC64B0024393E"
                BuildableName = "common4ios.app"
                BlueprintName = "common4ios"
-               ReferencedContainer = "container:common4ios.xcodeproj">
+               ReferencedContainer = "container:Common4IOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "093A1F2B162FC64B0024393E"
             BuildableName = "common4ios.app"
             BlueprintName = "common4ios"
-            ReferencedContainer = "container:common4ios.xcodeproj">
+            ReferencedContainer = "container:Common4IOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -54,7 +54,7 @@
             BlueprintIdentifier = "093A1F2B162FC64B0024393E"
             BuildableName = "common4ios.app"
             BlueprintName = "common4ios"
-            ReferencedContainer = "container:common4ios.xcodeproj">
+            ReferencedContainer = "container:Common4IOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,7 +72,7 @@
             BlueprintIdentifier = "093A1F2B162FC64B0024393E"
             BuildableName = "common4ios.app"
             BlueprintName = "common4ios"
-            ReferencedContainer = "container:common4ios.xcodeproj">
+            ReferencedContainer = "container:Common4IOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

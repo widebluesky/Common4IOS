@@ -16,46 +16,45 @@
 		093A1F43162FC64B0024393E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 093A1F42162FC64B0024393E /* Default.png */; };
 		093A1F45162FC64B0024393E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093A1F44162FC64B0024393E /* Default@2x.png */; };
 		093A1F47162FC64B0024393E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093A1F46162FC64B0024393E /* Default-568h@2x.png */; };
-		093A1F4A162FC64B0024393E /* HP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093A1F49162FC64B0024393E /* HP_ViewController.m */; };
-		093A1F4D162FC64B0024393E /* HP_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 093A1F4B162FC64B0024393E /* HP_ViewController.xib */; };
-		0969B561166C2CE9009290A5 /* HP_Common4IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B560166C2CE9009290A5 /* HP_Common4IOS.m */; };
-		0969B564166C2CF8009290A5 /* UIImage+Common4IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B563166C2CF8009290A5 /* UIImage+Common4IOS.m */; };
-		0969B567166C2D1B009290A5 /* HP_BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B566166C2D1B009290A5 /* HP_BaseTabBarController.m */; };
-		0969B56A166C2D3C009290A5 /* HP_NetWorkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B569166C2D3C009290A5 /* HP_NetWorkUtils.m */; };
-		0969B56D166C2D53009290A5 /* HP_NSDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B56C166C2D53009290A5 /* HP_NSDataUtils.m */; };
-		0969B573166C2E87009290A5 /* HP_GravityUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969B572166C2E87009290A5 /* HP_GravityUIView.m */; };
-		09833347166713860037D100 /* HP_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833346166713860037D100 /* HP_BaseViewController.m */; };
-		09833352166713ED0037D100 /* HP_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833349166713ED0037D100 /* HP_UIButton.m */; };
-		09833353166713ED0037D100 /* HP_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983334B166713ED0037D100 /* HP_UIImageView.m */; };
-		09833354166713ED0037D100 /* HP_UIKeyboardCoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983334D166713ED0037D100 /* HP_UIKeyboardCoView.m */; };
-		09833355166713ED0037D100 /* HP_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983334F166713ED0037D100 /* HP_UILabel.m */; };
-		09833356166713ED0037D100 /* HP_UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833351166713ED0037D100 /* HP_UIView.m */; };
-		0983335D1667141D0037D100 /* HP_NSDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 098333581667141D0037D100 /* HP_NSDateUtils.m */; };
-		0983335E1667141D0037D100 /* HP_Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983335A1667141D0037D100 /* HP_Reachability.m */; };
-		0983335F1667141D0037D100 /* HP_UIColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983335C1667141D0037D100 /* HP_UIColorUtils.m */; };
 		09833361166714AE0037D100 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09833360166714AE0037D100 /* QuartzCore.framework */; };
 		09833363166714C50037D100 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09833362166714C40037D100 /* SystemConfiguration.framework */; };
-		09833366166714F40037D100 /* HP_UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833365166714F40037D100 /* HP_UserDefaultsUtils.m */; };
-		0983336E166715670037D100 /* HP_PageFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983336A166715670037D100 /* HP_PageFlowViewController.m */; };
-		0983336F166715670037D100 /* HP_PageFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0983336B166715670037D100 /* HP_PageFlowViewController.xib */; };
-		09833370166715670037D100 /* HP_TimeLineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983336D166715670037D100 /* HP_TimeLineCenterViewController.m */; };
-		09833374166716830037D100 /* HP_UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09833372166716830037D100 /* HP_UITableView.m */; };
-		09C567F91658D91A007A972B /* HP_AFNetWorkingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C567F01658D91A007A972B /* HP_AFNetWorkingUtils.m */; };
-		09C567FA1658D91A007A972B /* HP_AnimationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C567F21658D91A007A972B /* HP_AnimationUtils.m */; };
-		09C567FB1658D91A007A972B /* HP_JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C567F41658D91A007A972B /* HP_JSONUtils.m */; };
-		09C567FC1658D91A007A972B /* HP_StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C567F61658D91A007A972B /* HP_StringUtils.m */; };
-		09C567FD1658D91A007A972B /* HP_UIImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C567F81658D91A007A972B /* HP_UIImageUtils.m */; };
-		09C5681A1658D984007A972B /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568001658D984007A972B /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C5681B1658D984007A972B /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568021658D984007A972B /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C5681C1658D984007A972B /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568041658D984007A972B /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C5681D1658D984007A972B /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568061658D984007A972B /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C5681E1658D984007A972B /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568081658D984007A972B /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C5681F1658D984007A972B /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C5680A1658D984007A972B /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C568201658D984007A972B /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C5680D1658D984007A972B /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C568211658D984007A972B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C5680F1658D984007A972B /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C568221658D984007A972B /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568111658D984007A972B /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C568231658D984007A972B /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568131658D984007A972B /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		09C568241658D984007A972B /* HP_PageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C568161658D984007A972B /* HP_PageFlowView.m */; };
+		09EE8D8F16772C840045E499 /* HP_PageFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D8816772C840045E499 /* HP_PageFlowViewController.m */; };
+		09EE8D9016772C840045E499 /* HP_PageFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09EE8D8916772C840045E499 /* HP_PageFlowViewController.xib */; };
+		09EE8D9116772C840045E499 /* HP_TimeLineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D8B16772C840045E499 /* HP_TimeLineCenterViewController.m */; };
+		09EE8D9216772C840045E499 /* HP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D8D16772C840045E499 /* HP_ViewController.m */; };
+		09EE8D9316772C840045E499 /* HP_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09EE8D8E16772C840045E499 /* HP_ViewController.xib */; };
+		09EE8DDB16772CF90045E499 /* UIImage+Common4IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D9616772CF90045E499 /* UIImage+Common4IOS.m */; };
+		09EE8DDC16772CF90045E499 /* HP_Common4IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D9816772CF90045E499 /* HP_Common4IOS.m */; };
+		09EE8DDD16772CF90045E499 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D9C16772CF90045E499 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DDE16772CF90045E499 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8D9E16772CF90045E499 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DDF16772CF90045E499 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DA016772CF90045E499 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE016772CF90045E499 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DA216772CF90045E499 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE116772CF90045E499 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DA416772CF90045E499 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE216772CF90045E499 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DA616772CF90045E499 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE316772CF90045E499 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DA916772CF90045E499 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE416772CF90045E499 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DAB16772CF90045E499 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE516772CF90045E499 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DAD16772CF90045E499 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DE616772CF90045E499 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DAF16772CF90045E499 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		09EE8DF016772CF90045E499 /* HP_AFNetWorkingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DC616772CF90045E499 /* HP_AFNetWorkingUtils.m */; };
+		09EE8DF116772CF90045E499 /* HP_AnimationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DC816772CF90045E499 /* HP_AnimationUtils.m */; };
+		09EE8DF216772CF90045E499 /* HP_JSONUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DCA16772CF90045E499 /* HP_JSONUtils.m */; };
+		09EE8DF316772CF90045E499 /* HP_NetWorkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DCC16772CF90045E499 /* HP_NetWorkUtils.m */; };
+		09EE8DF416772CF90045E499 /* HP_NSDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DCE16772CF90045E499 /* HP_NSDataUtils.m */; };
+		09EE8DF516772CF90045E499 /* HP_NSDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DD016772CF90045E499 /* HP_NSDateUtils.m */; };
+		09EE8DF616772CF90045E499 /* HP_Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DD216772CF90045E499 /* HP_Reachability.m */; };
+		09EE8DF716772CF90045E499 /* HP_StringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DD416772CF90045E499 /* HP_StringUtils.m */; };
+		09EE8DF816772CF90045E499 /* HP_UIColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DD616772CF90045E499 /* HP_UIColorUtils.m */; };
+		09EE8DF916772CF90045E499 /* HP_UIImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DD816772CF90045E499 /* HP_UIImageUtils.m */; };
+		09EE8DFA16772CF90045E499 /* HP_UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DDA16772CF90045E499 /* HP_UserDefaultsUtils.m */; };
+		09EE8E0E16772DA30045E499 /* HP_UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8DFE16772DA30045E499 /* HP_UIButton.m */; };
+		09EE8E0F16772DA30045E499 /* HP_UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0016772DA30045E499 /* HP_UIImageView.m */; };
+		09EE8E1016772DA30045E499 /* HP_UIKeyboardCoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0216772DA30045E499 /* HP_UIKeyboardCoView.m */; };
+		09EE8E1116772DA30045E499 /* HP_UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0416772DA30045E499 /* HP_UILabel.m */; };
+		09EE8E1216772DA30045E499 /* HP_UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0616772DA30045E499 /* HP_UITableView.m */; };
+		09EE8E1316772DA30045E499 /* HP_UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0816772DA30045E499 /* HP_UIView.m */; };
+		09EE8E1416772DA30045E499 /* HP_BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0B16772DA30045E499 /* HP_BaseTabBarController.m */; };
+		09EE8E1516772DA30045E499 /* HP_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E0D16772DA30045E499 /* HP_BaseViewController.m */; };
+		09EE8E1916772EAD0045E499 /* HP_PageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EE8E1816772EAD0045E499 /* HP_PageFlowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,88 +66,86 @@
 		093A1F3A162FC64B0024393E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		093A1F3C162FC64B0024393E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		093A1F3E162FC64B0024393E /* common4ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "common4ios-Prefix.pch"; sourceTree = "<group>"; };
-		093A1F3F162FC64B0024393E /* HP_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HP_AppDelegate.h; sourceTree = "<group>"; };
-		093A1F40162FC64B0024393E /* HP_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HP_AppDelegate.m; sourceTree = "<group>"; };
+		093A1F3F162FC64B0024393E /* HP_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HP_AppDelegate.h; path = common4ios/HP_AppDelegate.h; sourceTree = "<group>"; };
+		093A1F40162FC64B0024393E /* HP_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HP_AppDelegate.m; path = common4ios/HP_AppDelegate.m; sourceTree = "<group>"; };
 		093A1F42162FC64B0024393E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		093A1F44162FC64B0024393E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		093A1F46162FC64B0024393E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		093A1F48162FC64B0024393E /* HP_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HP_ViewController.h; sourceTree = "<group>"; };
-		093A1F49162FC64B0024393E /* HP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HP_ViewController.m; sourceTree = "<group>"; };
-		093A1F4C162FC64B0024393E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HP_ViewController.xib; sourceTree = "<group>"; };
-		0969B55F166C2CE9009290A5 /* HP_Common4IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_Common4IOS.h; sourceTree = "<group>"; };
-		0969B560166C2CE9009290A5 /* HP_Common4IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_Common4IOS.m; sourceTree = "<group>"; };
-		0969B562166C2CF8009290A5 /* UIImage+Common4IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common4IOS.h"; sourceTree = "<group>"; };
-		0969B563166C2CF8009290A5 /* UIImage+Common4IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common4IOS.m"; sourceTree = "<group>"; };
-		0969B565166C2D1B009290A5 /* HP_BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_BaseTabBarController.h; sourceTree = "<group>"; };
-		0969B566166C2D1B009290A5 /* HP_BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_BaseTabBarController.m; sourceTree = "<group>"; };
-		0969B568166C2D3C009290A5 /* HP_NetWorkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NetWorkUtils.h; sourceTree = "<group>"; };
-		0969B569166C2D3C009290A5 /* HP_NetWorkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NetWorkUtils.m; sourceTree = "<group>"; };
-		0969B56B166C2D53009290A5 /* HP_NSDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NSDataUtils.h; sourceTree = "<group>"; };
-		0969B56C166C2D53009290A5 /* HP_NSDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NSDataUtils.m; sourceTree = "<group>"; };
-		0969B571166C2E87009290A5 /* HP_GravityUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_GravityUIView.h; sourceTree = "<group>"; };
-		0969B572166C2E87009290A5 /* HP_GravityUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_GravityUIView.m; sourceTree = "<group>"; };
-		09833345166713860037D100 /* HP_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_BaseViewController.h; sourceTree = "<group>"; };
-		09833346166713860037D100 /* HP_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_BaseViewController.m; sourceTree = "<group>"; };
-		09833348166713ED0037D100 /* HP_UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIButton.h; sourceTree = "<group>"; };
-		09833349166713ED0037D100 /* HP_UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIButton.m; sourceTree = "<group>"; };
-		0983334A166713ED0037D100 /* HP_UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIImageView.h; sourceTree = "<group>"; };
-		0983334B166713ED0037D100 /* HP_UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIImageView.m; sourceTree = "<group>"; };
-		0983334C166713ED0037D100 /* HP_UIKeyboardCoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HP_UIKeyboardCoView.h; path = ../SuperClass/HP_UIKeyboardCoView.h; sourceTree = "<group>"; };
-		0983334D166713ED0037D100 /* HP_UIKeyboardCoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HP_UIKeyboardCoView.m; path = ../SuperClass/HP_UIKeyboardCoView.m; sourceTree = "<group>"; };
-		0983334E166713ED0037D100 /* HP_UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UILabel.h; sourceTree = "<group>"; };
-		0983334F166713ED0037D100 /* HP_UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UILabel.m; sourceTree = "<group>"; };
-		09833350166713ED0037D100 /* HP_UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIView.h; sourceTree = "<group>"; };
-		09833351166713ED0037D100 /* HP_UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIView.m; sourceTree = "<group>"; };
-		098333571667141D0037D100 /* HP_NSDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NSDateUtils.h; sourceTree = "<group>"; };
-		098333581667141D0037D100 /* HP_NSDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NSDateUtils.m; sourceTree = "<group>"; };
-		098333591667141D0037D100 /* HP_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_Reachability.h; sourceTree = "<group>"; };
-		0983335A1667141D0037D100 /* HP_Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_Reachability.m; sourceTree = "<group>"; };
-		0983335B1667141D0037D100 /* HP_UIColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIColorUtils.h; sourceTree = "<group>"; };
-		0983335C1667141D0037D100 /* HP_UIColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIColorUtils.m; sourceTree = "<group>"; };
 		09833360166714AE0037D100 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		09833362166714C40037D100 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		09833364166714F40037D100 /* HP_UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UserDefaultsUtils.h; sourceTree = "<group>"; };
-		09833365166714F40037D100 /* HP_UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UserDefaultsUtils.m; sourceTree = "<group>"; };
-		09833369166715660037D100 /* HP_PageFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_PageFlowViewController.h; sourceTree = "<group>"; };
-		0983336A166715670037D100 /* HP_PageFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_PageFlowViewController.m; sourceTree = "<group>"; };
-		0983336B166715670037D100 /* HP_PageFlowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HP_PageFlowViewController.xib; sourceTree = "<group>"; };
-		0983336C166715670037D100 /* HP_TimeLineCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_TimeLineCenterViewController.h; sourceTree = "<group>"; };
-		0983336D166715670037D100 /* HP_TimeLineCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_TimeLineCenterViewController.m; sourceTree = "<group>"; };
-		09833371166716830037D100 /* HP_UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UITableView.h; sourceTree = "<group>"; };
-		09833372166716830037D100 /* HP_UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UITableView.m; sourceTree = "<group>"; };
-		09C567EF1658D91A007A972B /* HP_AFNetWorkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_AFNetWorkingUtils.h; sourceTree = "<group>"; };
-		09C567F01658D91A007A972B /* HP_AFNetWorkingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_AFNetWorkingUtils.m; sourceTree = "<group>"; };
-		09C567F11658D91A007A972B /* HP_AnimationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_AnimationUtils.h; sourceTree = "<group>"; };
-		09C567F21658D91A007A972B /* HP_AnimationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_AnimationUtils.m; sourceTree = "<group>"; };
-		09C567F31658D91A007A972B /* HP_JSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_JSONUtils.h; sourceTree = "<group>"; };
-		09C567F41658D91A007A972B /* HP_JSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_JSONUtils.m; sourceTree = "<group>"; };
-		09C567F51658D91A007A972B /* HP_StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_StringUtils.h; sourceTree = "<group>"; };
-		09C567F61658D91A007A972B /* HP_StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_StringUtils.m; sourceTree = "<group>"; };
-		09C567F71658D91A007A972B /* HP_UIImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIImageUtils.h; sourceTree = "<group>"; };
-		09C567F81658D91A007A972B /* HP_UIImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIImageUtils.m; sourceTree = "<group>"; };
-		09C567FF1658D984007A972B /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
-		09C568001658D984007A972B /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
-		09C568011658D984007A972B /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		09C568021658D984007A972B /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		09C568031658D984007A972B /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
-		09C568041658D984007A972B /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
-		09C568051658D984007A972B /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
-		09C568061658D984007A972B /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
-		09C568071658D984007A972B /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
-		09C568081658D984007A972B /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
-		09C568091658D984007A972B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		09C5680A1658D984007A972B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		09C5680B1658D984007A972B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		09C5680C1658D984007A972B /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
-		09C5680D1658D984007A972B /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
-		09C5680E1658D984007A972B /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		09C5680F1658D984007A972B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		09C568101658D984007A972B /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
-		09C568111658D984007A972B /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
-		09C568121658D984007A972B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		09C568131658D984007A972B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		09C568151658D984007A972B /* HP_PageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_PageFlowView.h; sourceTree = "<group>"; };
-		09C568161658D984007A972B /* HP_PageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_PageFlowView.m; sourceTree = "<group>"; };
+		09EE8D8716772C840045E499 /* HP_PageFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_PageFlowViewController.h; sourceTree = "<group>"; };
+		09EE8D8816772C840045E499 /* HP_PageFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_PageFlowViewController.m; sourceTree = "<group>"; };
+		09EE8D8916772C840045E499 /* HP_PageFlowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HP_PageFlowViewController.xib; sourceTree = "<group>"; };
+		09EE8D8A16772C840045E499 /* HP_TimeLineCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_TimeLineCenterViewController.h; sourceTree = "<group>"; };
+		09EE8D8B16772C840045E499 /* HP_TimeLineCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_TimeLineCenterViewController.m; sourceTree = "<group>"; };
+		09EE8D8C16772C840045E499 /* HP_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_ViewController.h; sourceTree = "<group>"; };
+		09EE8D8D16772C840045E499 /* HP_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_ViewController.m; sourceTree = "<group>"; };
+		09EE8D8E16772C840045E499 /* HP_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HP_ViewController.xib; sourceTree = "<group>"; };
+		09EE8D9516772CF90045E499 /* UIImage+Common4IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common4IOS.h"; sourceTree = "<group>"; };
+		09EE8D9616772CF90045E499 /* UIImage+Common4IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common4IOS.m"; sourceTree = "<group>"; };
+		09EE8D9716772CF90045E499 /* HP_Common4IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HP_Common4IOS.h; path = Common4IOS/HP_Common4IOS.h; sourceTree = "<group>"; };
+		09EE8D9816772CF90045E499 /* HP_Common4IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HP_Common4IOS.m; path = Common4IOS/HP_Common4IOS.m; sourceTree = "<group>"; };
+		09EE8D9B16772CF90045E499 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		09EE8D9C16772CF90045E499 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		09EE8D9D16772CF90045E499 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		09EE8D9E16772CF90045E499 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		09EE8D9F16772CF90045E499 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		09EE8DA016772CF90045E499 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		09EE8DA116772CF90045E499 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		09EE8DA216772CF90045E499 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		09EE8DA316772CF90045E499 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		09EE8DA416772CF90045E499 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		09EE8DA516772CF90045E499 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		09EE8DA616772CF90045E499 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		09EE8DA716772CF90045E499 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		09EE8DA816772CF90045E499 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		09EE8DA916772CF90045E499 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		09EE8DAA16772CF90045E499 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		09EE8DAB16772CF90045E499 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		09EE8DAC16772CF90045E499 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		09EE8DAD16772CF90045E499 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		09EE8DAE16772CF90045E499 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		09EE8DAF16772CF90045E499 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		09EE8DC516772CF90045E499 /* HP_AFNetWorkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_AFNetWorkingUtils.h; sourceTree = "<group>"; };
+		09EE8DC616772CF90045E499 /* HP_AFNetWorkingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_AFNetWorkingUtils.m; sourceTree = "<group>"; };
+		09EE8DC716772CF90045E499 /* HP_AnimationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_AnimationUtils.h; sourceTree = "<group>"; };
+		09EE8DC816772CF90045E499 /* HP_AnimationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_AnimationUtils.m; sourceTree = "<group>"; };
+		09EE8DC916772CF90045E499 /* HP_JSONUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_JSONUtils.h; sourceTree = "<group>"; };
+		09EE8DCA16772CF90045E499 /* HP_JSONUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_JSONUtils.m; sourceTree = "<group>"; };
+		09EE8DCB16772CF90045E499 /* HP_NetWorkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NetWorkUtils.h; sourceTree = "<group>"; };
+		09EE8DCC16772CF90045E499 /* HP_NetWorkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NetWorkUtils.m; sourceTree = "<group>"; };
+		09EE8DCD16772CF90045E499 /* HP_NSDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NSDataUtils.h; sourceTree = "<group>"; };
+		09EE8DCE16772CF90045E499 /* HP_NSDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NSDataUtils.m; sourceTree = "<group>"; };
+		09EE8DCF16772CF90045E499 /* HP_NSDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NSDateUtils.h; sourceTree = "<group>"; };
+		09EE8DD016772CF90045E499 /* HP_NSDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NSDateUtils.m; sourceTree = "<group>"; };
+		09EE8DD116772CF90045E499 /* HP_Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_Reachability.h; sourceTree = "<group>"; };
+		09EE8DD216772CF90045E499 /* HP_Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_Reachability.m; sourceTree = "<group>"; };
+		09EE8DD316772CF90045E499 /* HP_StringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_StringUtils.h; sourceTree = "<group>"; };
+		09EE8DD416772CF90045E499 /* HP_StringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_StringUtils.m; sourceTree = "<group>"; };
+		09EE8DD516772CF90045E499 /* HP_UIColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIColorUtils.h; sourceTree = "<group>"; };
+		09EE8DD616772CF90045E499 /* HP_UIColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIColorUtils.m; sourceTree = "<group>"; };
+		09EE8DD716772CF90045E499 /* HP_UIImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIImageUtils.h; sourceTree = "<group>"; };
+		09EE8DD816772CF90045E499 /* HP_UIImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIImageUtils.m; sourceTree = "<group>"; };
+		09EE8DD916772CF90045E499 /* HP_UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UserDefaultsUtils.h; sourceTree = "<group>"; };
+		09EE8DDA16772CF90045E499 /* HP_UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UserDefaultsUtils.m; sourceTree = "<group>"; };
+		09EE8DFD16772DA30045E499 /* HP_UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIButton.h; sourceTree = "<group>"; };
+		09EE8DFE16772DA30045E499 /* HP_UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIButton.m; sourceTree = "<group>"; };
+		09EE8DFF16772DA30045E499 /* HP_UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIImageView.h; sourceTree = "<group>"; };
+		09EE8E0016772DA30045E499 /* HP_UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIImageView.m; sourceTree = "<group>"; };
+		09EE8E0116772DA30045E499 /* HP_UIKeyboardCoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIKeyboardCoView.h; sourceTree = "<group>"; };
+		09EE8E0216772DA30045E499 /* HP_UIKeyboardCoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIKeyboardCoView.m; sourceTree = "<group>"; };
+		09EE8E0316772DA30045E499 /* HP_UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UILabel.h; sourceTree = "<group>"; };
+		09EE8E0416772DA30045E499 /* HP_UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UILabel.m; sourceTree = "<group>"; };
+		09EE8E0516772DA30045E499 /* HP_UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UITableView.h; sourceTree = "<group>"; };
+		09EE8E0616772DA30045E499 /* HP_UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UITableView.m; sourceTree = "<group>"; };
+		09EE8E0716772DA30045E499 /* HP_UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIView.h; sourceTree = "<group>"; };
+		09EE8E0816772DA30045E499 /* HP_UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIView.m; sourceTree = "<group>"; };
+		09EE8E0A16772DA30045E499 /* HP_BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_BaseTabBarController.h; sourceTree = "<group>"; };
+		09EE8E0B16772DA30045E499 /* HP_BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_BaseTabBarController.m; sourceTree = "<group>"; };
+		09EE8E0C16772DA30045E499 /* HP_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_BaseViewController.h; sourceTree = "<group>"; };
+		09EE8E0D16772DA30045E499 /* HP_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_BaseViewController.m; sourceTree = "<group>"; };
+		09EE8E1716772EAD0045E499 /* HP_PageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_PageFlowView.h; sourceTree = "<group>"; };
+		09EE8E1816772EAD0045E499 /* HP_PageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_PageFlowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				093A1F36162FC64B0024393E /* Common4IOS */,
+				093A1F3F162FC64B0024393E /* HP_AppDelegate.h */,
+				093A1F40162FC64B0024393E /* HP_AppDelegate.m */,
+				09EE8D8616772C840045E499 /* ViewController */,
+				093A1F37162FC64B0024393E /* Supporting Files */,
 				093A1F2F162FC64B0024393E /* Frameworks */,
 				093A1F2D162FC64B0024393E /* Products */,
 			);
@@ -199,11 +200,13 @@
 		093A1F36162FC64B0024393E /* Common4IOS */ = {
 			isa = PBXGroup;
 			children = (
-				093A1F3F162FC64B0024393E /* HP_AppDelegate.h */,
-				093A1F40162FC64B0024393E /* HP_AppDelegate.m */,
-				09833367166715180037D100 /* Common4IOS */,
-				09833368166715240037D100 /* ViewController */,
-				093A1F37162FC64B0024393E /* Supporting Files */,
+				09EE8D9716772CF90045E499 /* HP_Common4IOS.h */,
+				09EE8D9816772CF90045E499 /* HP_Common4IOS.m */,
+				09EE8D9916772CF90045E499 /* Plugin */,
+				09EE8E1616772EAC0045E499 /* CustomView */,
+				09EE8DFB16772DA30045E499 /* SuperClass */,
+				09EE8D9416772CF90045E499 /* Category */,
+				09EE8DC416772CF90045E499 /* Utils */,
 			);
 			name = Common4IOS;
 			path = common4ios;
@@ -221,159 +224,150 @@
 				093A1F46162FC64B0024393E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = common4ios;
 			sourceTree = "<group>";
 		};
-		0969B55D166C2CD7009290A5 /* Category */ = {
+		09EE8D8616772C840045E499 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0969B562166C2CF8009290A5 /* UIImage+Common4IOS.h */,
-				0969B563166C2CF8009290A5 /* UIImage+Common4IOS.m */,
+				09EE8D8716772C840045E499 /* HP_PageFlowViewController.h */,
+				09EE8D8816772C840045E499 /* HP_PageFlowViewController.m */,
+				09EE8D8916772C840045E499 /* HP_PageFlowViewController.xib */,
+				09EE8D8A16772C840045E499 /* HP_TimeLineCenterViewController.h */,
+				09EE8D8B16772C840045E499 /* HP_TimeLineCenterViewController.m */,
+				09EE8D8C16772C840045E499 /* HP_ViewController.h */,
+				09EE8D8D16772C840045E499 /* HP_ViewController.m */,
+				09EE8D8E16772C840045E499 /* HP_ViewController.xib */,
+			);
+			name = ViewController;
+			path = common4ios/ViewController;
+			sourceTree = "<group>";
+		};
+		09EE8D9416772CF90045E499 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				09EE8D9516772CF90045E499 /* UIImage+Common4IOS.h */,
+				09EE8D9616772CF90045E499 /* UIImage+Common4IOS.m */,
 			);
 			name = Category;
+			path = Common4IOS/Category;
 			sourceTree = "<group>";
 		};
-		09833341166712E10037D100 /* Plugin */ = {
+		09EE8D9916772CF90045E499 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
-				09C567FE1658D984007A972B /* AFNetworking */,
+				09EE8D9A16772CF90045E499 /* AFNetworking */,
 			);
 			name = Plugin;
+			path = Common4IOS/Plugin;
 			sourceTree = "<group>";
 		};
-		09833343166713720037D100 /* View */ = {
+		09EE8D9A16772CF90045E499 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				09833371166716830037D100 /* HP_UITableView.h */,
-				09833372166716830037D100 /* HP_UITableView.m */,
-				09833348166713ED0037D100 /* HP_UIButton.h */,
-				09833349166713ED0037D100 /* HP_UIButton.m */,
-				0983334A166713ED0037D100 /* HP_UIImageView.h */,
-				0983334B166713ED0037D100 /* HP_UIImageView.m */,
-				0983334E166713ED0037D100 /* HP_UILabel.h */,
-				0983334F166713ED0037D100 /* HP_UILabel.m */,
-				09833350166713ED0037D100 /* HP_UIView.h */,
-				09833351166713ED0037D100 /* HP_UIView.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		09833344166713750037D100 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0969B565166C2D1B009290A5 /* HP_BaseTabBarController.h */,
-				0969B566166C2D1B009290A5 /* HP_BaseTabBarController.m */,
-				09833345166713860037D100 /* HP_BaseViewController.h */,
-				09833346166713860037D100 /* HP_BaseViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		09833367166715180037D100 /* Common4IOS */ = {
-			isa = PBXGroup;
-			children = (
-				0969B55F166C2CE9009290A5 /* HP_Common4IOS.h */,
-				0969B560166C2CE9009290A5 /* HP_Common4IOS.m */,
-				0969B55D166C2CD7009290A5 /* Category */,
-				09833341166712E10037D100 /* Plugin */,
-				09C568141658D984007A972B /* CustomView */,
-				09C568171658D984007A972B /* SuperClass */,
-				09C567EE1658D91A007A972B /* Utils */,
-			);
-			name = Common4IOS;
-			sourceTree = "<group>";
-		};
-		09833368166715240037D100 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				09833369166715660037D100 /* HP_PageFlowViewController.h */,
-				0983336A166715670037D100 /* HP_PageFlowViewController.m */,
-				0983336B166715670037D100 /* HP_PageFlowViewController.xib */,
-				0983336C166715670037D100 /* HP_TimeLineCenterViewController.h */,
-				0983336D166715670037D100 /* HP_TimeLineCenterViewController.m */,
-				093A1F48162FC64B0024393E /* HP_ViewController.h */,
-				093A1F49162FC64B0024393E /* HP_ViewController.m */,
-				093A1F4B162FC64B0024393E /* HP_ViewController.xib */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		09C567EE1658D91A007A972B /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				0969B56B166C2D53009290A5 /* HP_NSDataUtils.h */,
-				0969B56C166C2D53009290A5 /* HP_NSDataUtils.m */,
-				0969B568166C2D3C009290A5 /* HP_NetWorkUtils.h */,
-				0969B569166C2D3C009290A5 /* HP_NetWorkUtils.m */,
-				09C567EF1658D91A007A972B /* HP_AFNetWorkingUtils.h */,
-				09C567F01658D91A007A972B /* HP_AFNetWorkingUtils.m */,
-				09C567F11658D91A007A972B /* HP_AnimationUtils.h */,
-				09C567F21658D91A007A972B /* HP_AnimationUtils.m */,
-				09C567F31658D91A007A972B /* HP_JSONUtils.h */,
-				09C567F41658D91A007A972B /* HP_JSONUtils.m */,
-				098333571667141D0037D100 /* HP_NSDateUtils.h */,
-				098333581667141D0037D100 /* HP_NSDateUtils.m */,
-				098333591667141D0037D100 /* HP_Reachability.h */,
-				0983335A1667141D0037D100 /* HP_Reachability.m */,
-				09C567F51658D91A007A972B /* HP_StringUtils.h */,
-				09C567F61658D91A007A972B /* HP_StringUtils.m */,
-				0983335B1667141D0037D100 /* HP_UIColorUtils.h */,
-				0983335C1667141D0037D100 /* HP_UIColorUtils.m */,
-				09C567F71658D91A007A972B /* HP_UIImageUtils.h */,
-				09C567F81658D91A007A972B /* HP_UIImageUtils.m */,
-				09833364166714F40037D100 /* HP_UserDefaultsUtils.h */,
-				09833365166714F40037D100 /* HP_UserDefaultsUtils.m */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		09C567FE1658D984007A972B /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				09C567FF1658D984007A972B /* AFHTTPClient.h */,
-				09C568001658D984007A972B /* AFHTTPClient.m */,
-				09C568011658D984007A972B /* AFHTTPRequestOperation.h */,
-				09C568021658D984007A972B /* AFHTTPRequestOperation.m */,
-				09C568031658D984007A972B /* AFImageRequestOperation.h */,
-				09C568041658D984007A972B /* AFImageRequestOperation.m */,
-				09C568051658D984007A972B /* AFJSONRequestOperation.h */,
-				09C568061658D984007A972B /* AFJSONRequestOperation.m */,
-				09C568071658D984007A972B /* AFJSONUtilities.h */,
-				09C568081658D984007A972B /* AFJSONUtilities.m */,
-				09C568091658D984007A972B /* AFNetworkActivityIndicatorManager.h */,
-				09C5680A1658D984007A972B /* AFNetworkActivityIndicatorManager.m */,
-				09C5680B1658D984007A972B /* AFNetworking.h */,
-				09C5680C1658D984007A972B /* AFPropertyListRequestOperation.h */,
-				09C5680D1658D984007A972B /* AFPropertyListRequestOperation.m */,
-				09C5680E1658D984007A972B /* AFURLConnectionOperation.h */,
-				09C5680F1658D984007A972B /* AFURLConnectionOperation.m */,
-				09C568101658D984007A972B /* AFXMLRequestOperation.h */,
-				09C568111658D984007A972B /* AFXMLRequestOperation.m */,
-				09C568121658D984007A972B /* UIImageView+AFNetworking.h */,
-				09C568131658D984007A972B /* UIImageView+AFNetworking.m */,
+				09EE8D9B16772CF90045E499 /* AFHTTPClient.h */,
+				09EE8D9C16772CF90045E499 /* AFHTTPClient.m */,
+				09EE8D9D16772CF90045E499 /* AFHTTPRequestOperation.h */,
+				09EE8D9E16772CF90045E499 /* AFHTTPRequestOperation.m */,
+				09EE8D9F16772CF90045E499 /* AFImageRequestOperation.h */,
+				09EE8DA016772CF90045E499 /* AFImageRequestOperation.m */,
+				09EE8DA116772CF90045E499 /* AFJSONRequestOperation.h */,
+				09EE8DA216772CF90045E499 /* AFJSONRequestOperation.m */,
+				09EE8DA316772CF90045E499 /* AFJSONUtilities.h */,
+				09EE8DA416772CF90045E499 /* AFJSONUtilities.m */,
+				09EE8DA516772CF90045E499 /* AFNetworkActivityIndicatorManager.h */,
+				09EE8DA616772CF90045E499 /* AFNetworkActivityIndicatorManager.m */,
+				09EE8DA716772CF90045E499 /* AFNetworking.h */,
+				09EE8DA816772CF90045E499 /* AFPropertyListRequestOperation.h */,
+				09EE8DA916772CF90045E499 /* AFPropertyListRequestOperation.m */,
+				09EE8DAA16772CF90045E499 /* AFURLConnectionOperation.h */,
+				09EE8DAB16772CF90045E499 /* AFURLConnectionOperation.m */,
+				09EE8DAC16772CF90045E499 /* AFXMLRequestOperation.h */,
+				09EE8DAD16772CF90045E499 /* AFXMLRequestOperation.m */,
+				09EE8DAE16772CF90045E499 /* UIImageView+AFNetworking.h */,
+				09EE8DAF16772CF90045E499 /* UIImageView+AFNetworking.m */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		09C568141658D984007A972B /* CustomView */ = {
+		09EE8DC416772CF90045E499 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				0983334C166713ED0037D100 /* HP_UIKeyboardCoView.h */,
-				0983334D166713ED0037D100 /* HP_UIKeyboardCoView.m */,
-				09C568151658D984007A972B /* HP_PageFlowView.h */,
-				09C568161658D984007A972B /* HP_PageFlowView.m */,
-				0969B571166C2E87009290A5 /* HP_GravityUIView.h */,
-				0969B572166C2E87009290A5 /* HP_GravityUIView.m */,
+				09EE8DC516772CF90045E499 /* HP_AFNetWorkingUtils.h */,
+				09EE8DC616772CF90045E499 /* HP_AFNetWorkingUtils.m */,
+				09EE8DC716772CF90045E499 /* HP_AnimationUtils.h */,
+				09EE8DC816772CF90045E499 /* HP_AnimationUtils.m */,
+				09EE8DC916772CF90045E499 /* HP_JSONUtils.h */,
+				09EE8DCA16772CF90045E499 /* HP_JSONUtils.m */,
+				09EE8DCB16772CF90045E499 /* HP_NetWorkUtils.h */,
+				09EE8DCC16772CF90045E499 /* HP_NetWorkUtils.m */,
+				09EE8DCD16772CF90045E499 /* HP_NSDataUtils.h */,
+				09EE8DCE16772CF90045E499 /* HP_NSDataUtils.m */,
+				09EE8DCF16772CF90045E499 /* HP_NSDateUtils.h */,
+				09EE8DD016772CF90045E499 /* HP_NSDateUtils.m */,
+				09EE8DD116772CF90045E499 /* HP_Reachability.h */,
+				09EE8DD216772CF90045E499 /* HP_Reachability.m */,
+				09EE8DD316772CF90045E499 /* HP_StringUtils.h */,
+				09EE8DD416772CF90045E499 /* HP_StringUtils.m */,
+				09EE8DD516772CF90045E499 /* HP_UIColorUtils.h */,
+				09EE8DD616772CF90045E499 /* HP_UIColorUtils.m */,
+				09EE8DD716772CF90045E499 /* HP_UIImageUtils.h */,
+				09EE8DD816772CF90045E499 /* HP_UIImageUtils.m */,
+				09EE8DD916772CF90045E499 /* HP_UserDefaultsUtils.h */,
+				09EE8DDA16772CF90045E499 /* HP_UserDefaultsUtils.m */,
 			);
-			path = CustomView;
+			name = Utils;
+			path = Common4IOS/Utils;
 			sourceTree = "<group>";
 		};
-		09C568171658D984007A972B /* SuperClass */ = {
+		09EE8DFB16772DA30045E499 /* SuperClass */ = {
 			isa = PBXGroup;
 			children = (
-				09833344166713750037D100 /* ViewController */,
-				09833343166713720037D100 /* View */,
+				09EE8DFC16772DA30045E499 /* View */,
+				09EE8E0916772DA30045E499 /* ViewController */,
 			);
-			path = SuperClass;
+			name = SuperClass;
+			path = Common4IOS/SuperClass;
+			sourceTree = "<group>";
+		};
+		09EE8DFC16772DA30045E499 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09EE8DFD16772DA30045E499 /* HP_UIButton.h */,
+				09EE8DFE16772DA30045E499 /* HP_UIButton.m */,
+				09EE8DFF16772DA30045E499 /* HP_UIImageView.h */,
+				09EE8E0016772DA30045E499 /* HP_UIImageView.m */,
+				09EE8E0116772DA30045E499 /* HP_UIKeyboardCoView.h */,
+				09EE8E0216772DA30045E499 /* HP_UIKeyboardCoView.m */,
+				09EE8E0316772DA30045E499 /* HP_UILabel.h */,
+				09EE8E0416772DA30045E499 /* HP_UILabel.m */,
+				09EE8E0516772DA30045E499 /* HP_UITableView.h */,
+				09EE8E0616772DA30045E499 /* HP_UITableView.m */,
+				09EE8E0716772DA30045E499 /* HP_UIView.h */,
+				09EE8E0816772DA30045E499 /* HP_UIView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09EE8E0916772DA30045E499 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09EE8E0A16772DA30045E499 /* HP_BaseTabBarController.h */,
+				09EE8E0B16772DA30045E499 /* HP_BaseTabBarController.m */,
+				09EE8E0C16772DA30045E499 /* HP_BaseViewController.h */,
+				09EE8E0D16772DA30045E499 /* HP_BaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		09EE8E1616772EAC0045E499 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				09EE8E1716772EAD0045E499 /* HP_PageFlowView.h */,
+				09EE8E1816772EAD0045E499 /* HP_PageFlowView.m */,
+			);
+			name = CustomView;
+			path = Common4IOS/CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,7 +400,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Yi Xu";
 			};
-			buildConfigurationList = 093A1F26162FC64B0024393E /* Build configuration list for PBXProject "common4ios" */;
+			buildConfigurationList = 093A1F26162FC64B0024393E /* Build configuration list for PBXProject "Common4IOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -432,8 +426,8 @@
 				093A1F43162FC64B0024393E /* Default.png in Resources */,
 				093A1F45162FC64B0024393E /* Default@2x.png in Resources */,
 				093A1F47162FC64B0024393E /* Default-568h@2x.png in Resources */,
-				093A1F4D162FC64B0024393E /* HP_ViewController.xib in Resources */,
-				0983336F166715670037D100 /* HP_PageFlowViewController.xib in Resources */,
+				09EE8D9016772C840045E499 /* HP_PageFlowViewController.xib in Resources */,
+				09EE8D9316772C840045E499 /* HP_ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,42 +440,41 @@
 			files = (
 				093A1F3D162FC64B0024393E /* main.m in Sources */,
 				093A1F41162FC64B0024393E /* HP_AppDelegate.m in Sources */,
-				093A1F4A162FC64B0024393E /* HP_ViewController.m in Sources */,
-				09C567F91658D91A007A972B /* HP_AFNetWorkingUtils.m in Sources */,
-				09C567FA1658D91A007A972B /* HP_AnimationUtils.m in Sources */,
-				09C567FB1658D91A007A972B /* HP_JSONUtils.m in Sources */,
-				09C567FC1658D91A007A972B /* HP_StringUtils.m in Sources */,
-				09C567FD1658D91A007A972B /* HP_UIImageUtils.m in Sources */,
-				09C5681A1658D984007A972B /* AFHTTPClient.m in Sources */,
-				09C5681B1658D984007A972B /* AFHTTPRequestOperation.m in Sources */,
-				09C5681C1658D984007A972B /* AFImageRequestOperation.m in Sources */,
-				09C5681D1658D984007A972B /* AFJSONRequestOperation.m in Sources */,
-				09C5681E1658D984007A972B /* AFJSONUtilities.m in Sources */,
-				09C5681F1658D984007A972B /* AFNetworkActivityIndicatorManager.m in Sources */,
-				09C568201658D984007A972B /* AFPropertyListRequestOperation.m in Sources */,
-				09C568211658D984007A972B /* AFURLConnectionOperation.m in Sources */,
-				09C568221658D984007A972B /* AFXMLRequestOperation.m in Sources */,
-				09C568231658D984007A972B /* UIImageView+AFNetworking.m in Sources */,
-				09C568241658D984007A972B /* HP_PageFlowView.m in Sources */,
-				09833347166713860037D100 /* HP_BaseViewController.m in Sources */,
-				09833352166713ED0037D100 /* HP_UIButton.m in Sources */,
-				09833353166713ED0037D100 /* HP_UIImageView.m in Sources */,
-				09833354166713ED0037D100 /* HP_UIKeyboardCoView.m in Sources */,
-				09833355166713ED0037D100 /* HP_UILabel.m in Sources */,
-				09833356166713ED0037D100 /* HP_UIView.m in Sources */,
-				0983335D1667141D0037D100 /* HP_NSDateUtils.m in Sources */,
-				0983335E1667141D0037D100 /* HP_Reachability.m in Sources */,
-				0983335F1667141D0037D100 /* HP_UIColorUtils.m in Sources */,
-				09833366166714F40037D100 /* HP_UserDefaultsUtils.m in Sources */,
-				0983336E166715670037D100 /* HP_PageFlowViewController.m in Sources */,
-				09833370166715670037D100 /* HP_TimeLineCenterViewController.m in Sources */,
-				09833374166716830037D100 /* HP_UITableView.m in Sources */,
-				0969B561166C2CE9009290A5 /* HP_Common4IOS.m in Sources */,
-				0969B564166C2CF8009290A5 /* UIImage+Common4IOS.m in Sources */,
-				0969B567166C2D1B009290A5 /* HP_BaseTabBarController.m in Sources */,
-				0969B56A166C2D3C009290A5 /* HP_NetWorkUtils.m in Sources */,
-				0969B56D166C2D53009290A5 /* HP_NSDataUtils.m in Sources */,
-				0969B573166C2E87009290A5 /* HP_GravityUIView.m in Sources */,
+				09EE8D8F16772C840045E499 /* HP_PageFlowViewController.m in Sources */,
+				09EE8D9116772C840045E499 /* HP_TimeLineCenterViewController.m in Sources */,
+				09EE8D9216772C840045E499 /* HP_ViewController.m in Sources */,
+				09EE8DDB16772CF90045E499 /* UIImage+Common4IOS.m in Sources */,
+				09EE8DDC16772CF90045E499 /* HP_Common4IOS.m in Sources */,
+				09EE8DDD16772CF90045E499 /* AFHTTPClient.m in Sources */,
+				09EE8DDE16772CF90045E499 /* AFHTTPRequestOperation.m in Sources */,
+				09EE8DDF16772CF90045E499 /* AFImageRequestOperation.m in Sources */,
+				09EE8DE016772CF90045E499 /* AFJSONRequestOperation.m in Sources */,
+				09EE8DE116772CF90045E499 /* AFJSONUtilities.m in Sources */,
+				09EE8DE216772CF90045E499 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				09EE8DE316772CF90045E499 /* AFPropertyListRequestOperation.m in Sources */,
+				09EE8DE416772CF90045E499 /* AFURLConnectionOperation.m in Sources */,
+				09EE8DE516772CF90045E499 /* AFXMLRequestOperation.m in Sources */,
+				09EE8DE616772CF90045E499 /* UIImageView+AFNetworking.m in Sources */,
+				09EE8DF016772CF90045E499 /* HP_AFNetWorkingUtils.m in Sources */,
+				09EE8DF116772CF90045E499 /* HP_AnimationUtils.m in Sources */,
+				09EE8DF216772CF90045E499 /* HP_JSONUtils.m in Sources */,
+				09EE8DF316772CF90045E499 /* HP_NetWorkUtils.m in Sources */,
+				09EE8DF416772CF90045E499 /* HP_NSDataUtils.m in Sources */,
+				09EE8DF516772CF90045E499 /* HP_NSDateUtils.m in Sources */,
+				09EE8DF616772CF90045E499 /* HP_Reachability.m in Sources */,
+				09EE8DF716772CF90045E499 /* HP_StringUtils.m in Sources */,
+				09EE8DF816772CF90045E499 /* HP_UIColorUtils.m in Sources */,
+				09EE8DF916772CF90045E499 /* HP_UIImageUtils.m in Sources */,
+				09EE8DFA16772CF90045E499 /* HP_UserDefaultsUtils.m in Sources */,
+				09EE8E0E16772DA30045E499 /* HP_UIButton.m in Sources */,
+				09EE8E0F16772DA30045E499 /* HP_UIImageView.m in Sources */,
+				09EE8E1016772DA30045E499 /* HP_UIKeyboardCoView.m in Sources */,
+				09EE8E1116772DA30045E499 /* HP_UILabel.m in Sources */,
+				09EE8E1216772DA30045E499 /* HP_UITableView.m in Sources */,
+				09EE8E1316772DA30045E499 /* HP_UIView.m in Sources */,
+				09EE8E1416772DA30045E499 /* HP_BaseTabBarController.m in Sources */,
+				09EE8E1516772DA30045E499 /* HP_BaseViewController.m in Sources */,
+				09EE8E1916772EAD0045E499 /* HP_PageFlowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,14 +487,6 @@
 				093A1F3A162FC64B0024393E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		093A1F4B162FC64B0024393E /* HP_ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				093A1F4C162FC64B0024393E /* en */,
-			);
-			name = HP_ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -584,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		093A1F26162FC64B0024393E /* Build configuration list for PBXProject "common4ios" */ = {
+		093A1F26162FC64B0024393E /* Build configuration list for PBXProject "Common4IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				093A1F4E162FC64B0024393E /* Debug */,
