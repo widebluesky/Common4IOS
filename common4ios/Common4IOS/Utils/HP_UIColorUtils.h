@@ -12,6 +12,7 @@
 
 + (CGFloat) colorComponentFrom: (NSString *) string start: (NSUInteger) start length: (NSUInteger) length;
 
+//根据#AARRGGBB,#RRGGBB,#ARGB,#RGB获得UIColor
 + (UIColor *) colorWithHexString: (NSString *) hexString;
 
 @end
