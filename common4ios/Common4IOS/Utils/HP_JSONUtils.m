@@ -36,4 +36,15 @@
     return [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
 }
 
+-(NSArray *) getArrayFromJSONData:(NSData *) JSONData{
+    return [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
+}
+
+-(NSArray *) getArrayFromJSONString:(NSString *) JSONString encoding:(NSStringEncoding)encoding{
+    //NSUTF8StringEncoding
+    NSData *JSONData = [self getJSONDataFromString:JSONString encoding:encoding];
+    return [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingAllowFragments error:nil];
+}
+
+
 @end
