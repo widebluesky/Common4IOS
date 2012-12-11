@@ -34,4 +34,19 @@
     return [NSString stringWithFormat:@"%@%@",str,suffix];
 }
 
++(CGSize)getTextSizeByString:(NSString *) string byFont:(UIFont *) font{
+    return [string sizeWithFont:font constrainedToSize:CGSizeMake(MAXFLOAT, 30)];
+}
+
++(CGSize)getTextSizeByString:(NSString *) string byFont:(UIFont *) font bySize:(CGSize) size{
+    return [string sizeWithFont:font constrainedToSize:size lineBreakMode:UILineBreakModeWordWrap];
+}
+
++(NSArray *)splitString:(NSString*) string withStr:(NSString*)str{
+    return [string componentsSeparatedByString:str];
+}
+
++(NSString *)getSubStringWithString:(NSString *) string from:(NSInteger)start to:(NSInteger)end{
+    return  [string substringWithRange:NSMakeRange(start, end)];
+}
 @end
