@@ -10,18 +10,22 @@
 
 @interface HP_NSDateUtils : NSObject
 {
-//    NSTimeInterval secondsBetweenDates= [yesterDay timeIntervalSinceDate:now];
-//    NSTimeInterval oneHour = 24*60*60;
+    
 }
 
+//比较date1是否在date2之前
 +(BOOL)compareDate:(NSDate *)date1 isEarlierDate:(NSDate *) date2;
 
+//比较time1是否在time2之前
 +(BOOL)compareTime:(NSTimeInterval)time1 isEarlierTime:(NSTimeInterval) time2;
 
+//比较time是否大雨24小时
 +(BOOL)isLongerThen24Hours:(NSTimeInterval)time ;
 
+//NSTimeInterval 类型转换为 NSDate类型
 +(NSDate *) getDateFromTimeInterval:(NSTimeInterval) interval;
 
+//NSDate 类型转换为 NSTimeInterval类型
 +(NSTimeInterval) getTimeIntervalFromDate:(NSDate *)date;
 
 

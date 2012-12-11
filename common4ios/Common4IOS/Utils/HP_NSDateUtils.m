@@ -12,7 +12,7 @@
 
 +(BOOL)compareDate:(NSDate *)date1 isEarlierDate:(NSDate *) date2{
     BOOL isEarlier = NO;
-
+    
     if ([date1 isEqualToDate:[date1 earlierDate:date2]]) {
         isEarlier = YES;
     };
@@ -43,7 +43,7 @@
 
 
 +(NSDate *) getDateFromTimeInterval:(NSTimeInterval) interval{
-
+    
     return [NSDate dateWithTimeIntervalSince1970:interval];
 }
 
